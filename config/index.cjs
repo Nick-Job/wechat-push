@@ -10,7 +10,7 @@ const USER_CONFIG = {
   // 使用【微信测试号】请填写 wechat-test
   // 使用【方糖服务号】请填写 server-chan
   // 使用【pushplus推送加服务号】请填写 push-plus
-  USE_PASSAGE: 'push-deer',
+  USE_PASSAGE: 'push-plus',
   
   // 使用微信测试号时才需要填写：公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
@@ -73,7 +73,7 @@ const USER_CONFIG = {
   
   TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
-    key: '',
+    key: '6788d363434471fadf3bef5a26d4ab5e',
     
     /** 天行API相关，需要config中配置 TIAN_API_KEY  */
     // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -89,7 +89,7 @@ const USER_CONFIG = {
     networkHot: 3,
   
     // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
-    networkHotType: 'default',
+    networkHotType: 'title',
   },
   
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
