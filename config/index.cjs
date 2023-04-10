@@ -111,10 +111,10 @@ const USER_CONFIG = {
       name: 'test',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'PDU21384TNrokbfocuO5uJ8DzwiwF67AD8egjU0CF',
+      id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '0001',
+      useTemplateId: 'Md0m3hDBVCgKMBD5Cy_4K1fOZZraPqU9zpXdG_-7ELk',
       // 所在省份或城市，也可以不填
       province: '广东',
       // 所在城市或县区
